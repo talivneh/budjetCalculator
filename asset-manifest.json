@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/calc-budj/static/css/main.ad90f065.chunk.css",
-    "main.js": "/calc-budj/static/js/main.175f33d1.chunk.js",
-    "main.js.map": "/calc-budj/static/js/main.175f33d1.chunk.js.map",
-    "runtime-main.js": "/calc-budj/static/js/runtime-main.51ac474b.js",
-    "runtime-main.js.map": "/calc-budj/static/js/runtime-main.51ac474b.js.map",
-    "static/js/2.c95efd3a.chunk.js": "/calc-budj/static/js/2.c95efd3a.chunk.js",
-    "static/js/2.c95efd3a.chunk.js.map": "/calc-budj/static/js/2.c95efd3a.chunk.js.map",
-    "static/js/3.66fd1649.chunk.js": "/calc-budj/static/js/3.66fd1649.chunk.js",
-    "static/js/3.66fd1649.chunk.js.map": "/calc-budj/static/js/3.66fd1649.chunk.js.map",
-    "index.html": "/calc-budj/index.html",
-    "static/css/main.ad90f065.chunk.css.map": "/calc-budj/static/css/main.ad90f065.chunk.css.map",
-    "static/js/2.c95efd3a.chunk.js.LICENSE.txt": "/calc-budj/static/js/2.c95efd3a.chunk.js.LICENSE.txt"
+    "main.css": "/budjetCalculator/static/css/main.ad90f065.chunk.css",
+    "main.js": "/budjetCalculator/static/js/main.175f33d1.chunk.js",
+    "main.js.map": "/budjetCalculator/static/js/main.175f33d1.chunk.js.map",
+    "runtime-main.js": "/budjetCalculator/static/js/runtime-main.0a19ab94.js",
+    "runtime-main.js.map": "/budjetCalculator/static/js/runtime-main.0a19ab94.js.map",
+    "static/js/2.b7b615b9.chunk.js": "/budjetCalculator/static/js/2.b7b615b9.chunk.js",
+    "static/js/2.b7b615b9.chunk.js.map": "/budjetCalculator/static/js/2.b7b615b9.chunk.js.map",
+    "static/js/3.66fd1649.chunk.js": "/budjetCalculator/static/js/3.66fd1649.chunk.js",
+    "static/js/3.66fd1649.chunk.js.map": "/budjetCalculator/static/js/3.66fd1649.chunk.js.map",
+    "index.html": "/budjetCalculator/index.html",
+    "static/css/main.ad90f065.chunk.css.map": "/budjetCalculator/static/css/main.ad90f065.chunk.css.map",
+    "static/js/2.b7b615b9.chunk.js.LICENSE.txt": "/budjetCalculator/static/js/2.b7b615b9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.51ac474b.js",
-    "static/js/2.c95efd3a.chunk.js",
+    "static/js/runtime-main.0a19ab94.js",
+    "static/js/2.b7b615b9.chunk.js",
     "static/css/main.ad90f065.chunk.css",
     "static/js/main.175f33d1.chunk.js"
   ]
