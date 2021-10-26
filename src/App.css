@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 :root {
-  --primaryColor: #f15025;
   --mainWhite: #fff;
   --mainBlack: #222;
   --mainGrey: #9e9e9e;
@@ -30,6 +29,7 @@ h1 {
   background: var(--mainWhite);
   padding-bottom: 2rem;
   border-radius: 2px;
+  border-radius: 8px;
 }
 .form-center {
   display: flex;
@@ -61,7 +61,7 @@ label {
 .btn {
   text-decoration: none;
   color: var(--mainWhite);
-  background-color: var(--primaryColor);
+  background-color: var(--mainGreen);
   text-align: center;
   letter-spacing: 0.5px;
   font-size: 14px;
@@ -79,6 +79,7 @@ label {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   display: flex;
   align-items: center;
+  border-radius: 8px;
 }
 .btn:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -86,6 +87,9 @@ label {
 .btn-icon {
   margin-left: 0.75rem;
   font-size: 1.2rem;
+}
+.clear {
+  background-color: var(--mainRed);
 }
 .list {
   margin: 2rem 0.75rem 0 0.75rem;
@@ -119,8 +123,7 @@ label {
 .amount {
   font-weight: 300;
   font-size: 1rem;
-  color: var(--mainWhite);
-  background-color: var(--primaryColor);
+  color: var(--mainBlack);
   border-radius: 2px;
   padding: 1px 3px;
 }
@@ -141,9 +144,11 @@ label {
 .total {
   font-weight: 300;
   color: var(--mainWhite);
-  background-color: var(--primaryColor);
   border-radius: 2px;
   padding: 2px 5px;
+  border-radius: 8px;
+  font-weight: 800;
+  text-decoration: underline;
 }
 .alert {
   padding: 0.75rem 1.25rem;

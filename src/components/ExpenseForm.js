@@ -1,5 +1,6 @@
 import React from "react";
 import { MdSend } from "react-icons/md";
+import { BsCheckLg } from "react-icons/bs";
 
 const ExpenseForm = ({
   charge,
@@ -38,8 +39,12 @@ const ExpenseForm = ({
         </div>
       </div>
       <button type="submit" className="btn">
-        {edit ? "Edit" : "Submit"}
-        <MdSend className="btn-icon" />
+        {edit ? `Edit` : `Submit`}
+        {edit ? (
+          <BsCheckLg className="btn-icon" />
+        ) : (
+          <MdSend className="btn-icon" />
+        )}
       </button>
     </form>
   );
